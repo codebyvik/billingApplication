@@ -1,0 +1,36 @@
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-header,
+.item {
+  display: flex;
+}
+
+.form-header * {
+  width: 10rem;
+  border-bottom: 1px solid grey;
+  padding: 0 1rem;
+}
+
+.item * {
+  width: 10rem;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item select {
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+
+table {
+  width: 40rem;
+}
+
+td {
+  width: 10rem;
+  text-align: center;
+}
